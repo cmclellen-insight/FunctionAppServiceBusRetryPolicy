@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionAppServiceBusRetryPolicy", "FunctionAppServiceBusRetryPolicy.csproj", "{AA91C9BD-8EF1-4344-897A-8BBA77EBF21F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "obj", "obj", "{4073AC93-B036-4303-AE1E-09ED293937D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Debug", "Debug", "{09B5B40F-446A-46DE-B38A-BFAA57D16C75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net8.0", "net8.0", "{207B9C1F-10D1-4A86-9A56-C6A4932CDB54}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkerExtensions", "obj\Debug\net8.0\WorkerExtensions\WorkerExtensions.csproj", "{7B716A07-94C5-4322-9423-438E13A1B59D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA91C9BD-8EF1-4344-897A-8BBA77EBF21F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA91C9BD-8EF1-4344-897A-8BBA77EBF21F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA91C9BD-8EF1-4344-897A-8BBA77EBF21F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA91C9BD-8EF1-4344-897A-8BBA77EBF21F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B716A07-94C5-4322-9423-438E13A1B59D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B716A07-94C5-4322-9423-438E13A1B59D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B716A07-94C5-4322-9423-438E13A1B59D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B716A07-94C5-4322-9423-438E13A1B59D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{09B5B40F-446A-46DE-B38A-BFAA57D16C75} = {4073AC93-B036-4303-AE1E-09ED293937D2}
+		{207B9C1F-10D1-4A86-9A56-C6A4932CDB54} = {09B5B40F-446A-46DE-B38A-BFAA57D16C75}
+		{7B716A07-94C5-4322-9423-438E13A1B59D} = {207B9C1F-10D1-4A86-9A56-C6A4932CDB54}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5F53525-A7CF-4263-AA02-EFFDD37BBAF6}
+	EndGlobalSection
+EndGlobal
